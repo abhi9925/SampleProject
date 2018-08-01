@@ -8,7 +8,7 @@ android:orientation="vertical"
 tools:context="com.example.abhishek.campus.ChatWindowActivity">
 
 <ScrollView
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_weight="20"
     android:layout_height="wrap_content"
     android:id="@+id/scrollView">
