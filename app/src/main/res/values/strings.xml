@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Campus</string>
+
+    <string name="text_create">Create</string>
+    <string name="text_listview">View Jobs</string>
+    <string name="text_chats">Chats</string>
+    <string name="text_profile">Profile</string>
+
+    <string name="text_create1">Create</string>
+    <string name="text_listview1">View Runs</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="select_location_array">
+        <item>Select a Location</item>
+        <item>Vishal Mega Mart</item>
+        <item>Night Canteen A</item>
+        <item>Night Canteen C</item>
+        <item>Red Chillies</item>
+        <item>Laundry</item>
+        <item>Pragati</item>
+        <item>Fruits and Vegetables</item>
+    </string-array>
+
+
+    <string name="time">Set Time</string>
+    <string name="time1">At what time do you need it?</string>
+    <string name="where">Where do you need it?</string>
+
+
+    <string-array name="select_fees_array">
+        <item>Select Fees</item>
+        <item>10 INR</item>
+        <item>20 INR</item>
+        <item>30 INR</item>
+        <item>50 INR</item>
+    </string-array>
+
+    <string name="submit">Submit</string>
+
+</resources>

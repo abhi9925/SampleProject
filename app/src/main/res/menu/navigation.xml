@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_create"
+        android:enabled="true"
+        android:icon="@drawable/create"
+        android:title="@string/text_create"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_listview"
+        android:enabled="true"
+        android:icon="@drawable/listview"
+        android:title="@string/text_listview"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_chats"
+        android:enabled="true"
+        android:icon="@drawable/chats"
+        android:title="@string/text_chats"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/profile"
+        android:title="@string/text_profile"
+        app:showAsAction="ifRoom" />
+
+</menu>

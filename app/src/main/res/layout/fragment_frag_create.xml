@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhishek.campus.frag_create">
+
+    <Spinner
+        android:id="@+id/spinner_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+       />
+
+    <EditText
+        android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_location"
+        android:layout_alignStart="@+id/spinner_location"
+        android:layout_below="@+id/spinner_location"
+        android:layout_marginTop="30dp"
+        android:hint="@string/time"
+        android:singleLine="true"
+        android:clickable="true"
+        android:focusable="false" />
+
+    <Spinner
+        android:id="@+id/spinner_fees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_location"
+        android:layout_alignStart="@+id/spinner_location"
+        android:layout_below="@+id/time_picker"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_fees"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/submit"
+        android:id="@+id/submit_button"/>
+
+</RelativeLayout>
